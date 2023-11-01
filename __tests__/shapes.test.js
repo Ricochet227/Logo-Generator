@@ -1,4 +1,4 @@
-const { Circle, Square, Triangle } = require('./shapes');
+const { Circle, Square, Triangle } = require('../lib/shapes');
 
 test('Circle render method should return the correct SVG string with default color', () => {
   const circle = new Circle();
