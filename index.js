@@ -107,3 +107,4 @@ async function init() {
 	writeToFile(svg_file, svgString); 
 }
 init()
+
