@@ -69,6 +69,8 @@ var svgContent = `
     fs.writeFile('./logo.svg', svgContent, err => {
         if (err) {
         console.error(err);
+        } else {
+            console.log('Congrats! Your logo has been created in the logo.svg file! (creating another logo will erase the previous one!)');
         }
     });
   })
